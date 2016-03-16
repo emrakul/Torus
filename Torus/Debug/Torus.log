@@ -1,0 +1,37 @@
+﻿Build started 01.01.2016 20:55:25.
+     1>Project "D:\Информатика_С++\Torus\Torus\Torus.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TextFile.cpp main.cpp
+         main.cpp
+     1>d:\информатика_с++\torus\torus\main.cpp(38): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>d:\информатика_с++\torus\torus\main.cpp(58): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>d:\информатика_с++\torus\torus\main.cpp(183): warning C4018: '<': signed/unsigned mismatch
+         TextFile.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Информатика_С++\2dSet\Debug\Torus.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Информатика_С++\2dSet\Debug\Torus.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Информатика_С++\2dSet\Debug\Torus.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\ControlPoint.obj
+         Debug\main.obj
+         Debug\Quad.obj
+         Debug\TextFile.obj
+         Debug\Torus.obj
+     1>main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwGetPrimaryMonitor referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPAUGLFWwindow@@HHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+     1>D:\Информатика_С++\2dSet\Debug\Torus.exe : fatal error LNK1120: 14 unresolved externals
+     1>Done Building Project "D:\Информатика_С++\Torus\Torus\Torus.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.56
